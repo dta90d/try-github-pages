@@ -36,7 +36,7 @@ Pre-purchase requests at reduced rates:
 | **Enterprise**| 1000     | 240 TON    | 0.24 TON     | 20%                       |
 
 ### Key Notes:
-1. **Deployment fee (₮5)** applies once per account, separate from request costs.  
+1. **Deployment fee (5 TON)** applies once per account, separate from request costs.  
 2. **Volume discounts** increase with larger packs:
    - Save **2.5 TON** on 100 requests vs. pay-as-you-go  
    - Save **20 TON** on 500 requests vs. pay-as-you-go  
