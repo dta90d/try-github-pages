@@ -34,7 +34,31 @@ Client Contract           Verifier Contract           Oracle Network
 ---
 
 ## Factory contract address.
+
 Right now RandomTON factory contract is deployed at ''.
+
+## Pricing.
+
+For detailed pricing models, transaction fees, and subscription tiers, refer to our dedicated **[RandomTON Pricing Guide](pricing.md)**. Below is a high-level summary:
+
+| Category                  | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| **Deployment Fees**       | One-time cost for deploying a verifier contract via the Factory.            |
+| **Pay-As-You-Go**         | Per-request fee for ad-hoc randomness generation.                           |
+| **Subscriptions**         | Tiered plans (Basic/Professional/Enterprise) for high-volume use cases.     |
+| **Freemium Programs**     | Free tier with 100 monthly requests for early-stage projects/experiments.   |
+| **Grants**                | Sponsorship for public goods, open-source projects, and ecosystem builders. |
+
+[**View Full Pricing Details →**](pricing.md)
+
+---
+
+### Key Variables in Code
+The client contract uses these predefined fee constants (adjustable via governance):
+```tact
+const randomTonDeploymentFee: Int = ton("5");
+const randomTonPayAsYouGoFee: Int = ton("0.3");
+const randomTonBasicSubscriptionTierFee: Int = ton("27.5");
 
 ## Integration Guide
 
