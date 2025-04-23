@@ -55,7 +55,7 @@ For detailed pricing models, transaction fees, and subscription tiers, refer to 
 
 ## Integration Guide
 
-### 1. **Deploy Your Client Contract**
+### Step 1. **Deploy Your Client Contract**
    - Inherit the `RandomTON` trait and initialize critical variables:
      ```tact
      contract TestClientContract with Deployable, Ownable, RandomTON {
@@ -125,7 +125,7 @@ receive( "Buy Basic Subscription" )
 
 ## Key Restrictions
 **Authorization**:
-   - Only the contract owner can trigger requests, subscriptions, or withdrawals.
+   - Only the contract owner can trigger requests and subscriptions.
    - The `randomTonRegistrationGuard()` must be overridden to enforce access control.
 
 ---
