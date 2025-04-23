@@ -53,13 +53,6 @@ For detailed pricing models, transaction fees, and subscription tiers, refer to 
 
 ---
 
-### Key Variables in Code
-The client contract uses these predefined fee constants (adjustable via governance):
-```tact
-const randomTonDeploymentFee: Int = ton("5");
-const randomTonPayAsYouGoFee: Int = ton("0.3");
-const randomTonBasicSubscriptionTierFee: Int = ton("27.5");
-
 ## Integration Guide
 
 ### 1. **Deploy Your Client Contract**
