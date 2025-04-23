@@ -1,4 +1,3 @@
-```markdown
 # RandomTON VRF Service Documentation
 
 ## Overview
